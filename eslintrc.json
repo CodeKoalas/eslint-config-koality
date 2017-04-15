@@ -9,14 +9,14 @@
       "exports": "always-multiline",
       "functions": "always-multiline"
     }],
-    "generator-star-spacing": ["error", { "before": "false", "after": "true" }],
+    "generator-star-spacing": ["error", { "before": false, "after": true }],
     "keyword-spacing": ["error", {
-      "before": "true",
-      "after": "true",
+      "before": true,
+      "after": true,
       "overrides": {
-        "return": { "after": "true" },
-        "throw": { "after": "true" },
-        "case": { "after": "true" }
+        "return": { "after": true },
+        "throw": { "after": true },
+        "case": { "after": true }
       }
     }]
   }
