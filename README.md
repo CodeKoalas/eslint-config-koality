@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-npm install eslint-config-koality
+npm install --save-dev eslint-config-koality
 ```
 
 ## Usage

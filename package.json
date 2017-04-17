@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-koality",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An Eslint config from your friends at Code Koalas",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "author": "Donnie West <donnie@codekoalas.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "eslint-config-standard": "10.2.1",
     "eslint-config-standard-jsx": "4.0.1",
     "eslint-plugin-import": "2.2.0",
