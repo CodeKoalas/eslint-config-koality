@@ -1,6 +1,8 @@
 {
-  "extends": "standard",
+  "extends": ["standard", "standard-jsx"],
   "rules": {
+    "object-curly-spacing": ["error", "always"],
+    "space-before-function-paren": 0,
     "semi": [2, "always"],
     "comma-dangle": ["error", {
       "arrays": "always-multiline",
@@ -18,6 +20,8 @@
         "throw": { "after": true },
         "case": { "after": true }
       }
-    }]
+    }],
+    "jsx-quotes": ["error", "prefer-double"],
+    "react/jsx-curly-spacing": ["error", "never", { "allowMultiline": true }]
   }
 }
