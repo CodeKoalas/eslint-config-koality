@@ -1,11 +1,17 @@
 # eslint-config-koality
 
-#### A "Koality" shareable ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) from your friends at [Code Koalas](https://codekoalas.com)
+#### A "Koality" ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) from your friends at [Code Koalas](https://codekoalas.com)
 
 ## Install
 
 ```bash
 npm install --save-dev eslint-config-koality
+```
+
+The `ESLint Shareable Config` depends on [ESLint](http://eslint.org/) so you'll need to install ESLint as well (if you have not already installed it):
+
+```bash
+npm install --save-dev eslint
 ```
 
 ## Usage
