@@ -45,6 +45,7 @@
     "prettier/prettier": ["error", {
       "trailingComma": "all",
       "singleQuote": true
-    }]
+    }],
+    "react/prefer-stateless-function": 1
   }
 }
