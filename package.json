@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-koality",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An Eslint config from your friends at Code Koalas",
   "main": "index.js",
   "scripts": {
@@ -10,15 +10,16 @@
   "author": "Donnie West <donnie@codekoalas.com>",
   "license": "MIT",
   "dependencies": {
+    "eslint": "4.3.0",
     "eslint-config-prettier": "2.3.0",
     "eslint-config-standard": "10.2.1",
     "eslint-config-standard-jsx": "4.0.2",
     "eslint-plugin-import": "2.7.0",
-    "eslint-plugin-node": "5.1.0",
+    "eslint-plugin-node": "5.1.1",
     "eslint-plugin-prettier": "2.1.2",
     "eslint-plugin-promise": "3.5.0",
-    "eslint-plugin-react": "7.1.0",
+    "eslint-plugin-react": "git+https://github.com/yannickcr/eslint-plugin-react.git",
     "eslint-plugin-standard": "3.0.1",
-    "prettier": "1.5.2"
+    "prettier": "1.5.3"
   }
 }
