@@ -9,6 +9,9 @@
     "prettier/react"
   ],
   "rules": {
+    "quotes": ["error", "single", {
+      "avoidEscape": true
+    }],
     "object-curly-spacing": ["error", "always"],
     "space-before-function-paren": 0,
     "semi": [2, "always"],
