@@ -9,9 +9,9 @@
   },
   "author": "Donnie West <donnie@codekoalas.com>",
   "license": "MIT",
-  "dependencies": {
-    "eslint": "4.5.0",
-    "eslint-config-prettier": "2.3.0",
+  "peerDependencies": {
+    "eslint": "4.6.1",
+    "eslint-config-prettier": "2.4.0",
     "eslint-config-standard": "10.2.1",
     "eslint-config-standard-jsx": "4.0.2",
     "eslint-plugin-import": "2.7.0",
