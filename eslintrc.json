@@ -6,7 +6,8 @@
     "standard",
     "standard-jsx",
     "prettier",
-    "prettier/react"
+    "prettier/react",
+    "prettier/standard"
   ],
   "rules": {
     "quotes": ["error", "single", {
