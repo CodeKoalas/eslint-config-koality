@@ -13,6 +13,10 @@
   },
   "author": "Donnie West <donnie@codekoalas.com>",
   "license": "MIT",
+  "files": [
+    "index.js",
+    "eslintrc.json"
+  ],
   "peerDependencies": {
     "eslint": "*",
     "eslint-config-prettier": "*",
