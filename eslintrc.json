@@ -26,6 +26,9 @@
       "before": false,
       "after": true
     }],
+
+    "no-return-await": 2,
+    "require-await": 2,
     "keyword-spacing": ["error", {
       "before": true,
       "after": true,
