@@ -1,4 +1,11 @@
 {
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
   "plugins": [
     "prettier"
   ],
@@ -23,6 +30,7 @@
       "exports": "always-multiline",
       "functions": "always-multiline"
     }],
+    "no-else-return": ["error", { "allowElseIf": false }],
     "generator-star-spacing": ["error", {
       "before": false,
       "after": true
