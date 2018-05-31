@@ -30,10 +30,6 @@
       "always"
     ],
     "space-before-function-paren": 0,
-    "semi": [
-      2,
-      "always"
-    ],
     "comma-dangle": [
       "error",
       {
@@ -92,7 +88,8 @@
       "error",
       {
         "trailingComma": "all",
-        "singleQuote": true
+        "singleQuote": true, 
+        "semi": false
       }
     ],
     "react/prefer-stateless-function": 1
