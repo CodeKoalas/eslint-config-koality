@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-koality",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "An Eslint config from your friends at Code Koalas",
   "main": "index.js",
   "repository": {
